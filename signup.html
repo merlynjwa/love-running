@@ -32,26 +32,32 @@
         </nav>
     </header>
     <section class="form-section">
-        <form action="https://formdump.codeinstitute.net/" method="post">
-            <h2>Let's get you signed up!</h2>
+        <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
+            <h2>
+                Let's get you signed up!
+                <i class="fas fa-heartbeat"></i>
+            </h2>
             <label for="fname">First Name</label>
             <input id="fname"
                    type="text"
                    placeholder="Enter your first name here."
                    name="first_name"
-                   required>
+                   required
+                   class="text-input">
             <label for="lname">Last Name</label>
             <input id="lname"
                    type="text"
                    placeholder="Enter your last name here"
                    name="last_name"
-                   required>
+                   required
+                   class="text-input">
             <label for="email">Email Address</label>
             <input id="email"
                    type="email"
                    placeholder="Enter your email address here"
                    name="email_address"
-                   required>
+                   required
+                   class="text-input">
             <label for="road">Road</label>
             <input id="road"
                    type="radio"
